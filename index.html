@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>WebLess</title>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+<header class="header">
+    <a href="#">
+        <h2>WL</h2>
+    </a>
+    <ul>
+        <li class="title">
+            <div class="li-container s1"><span><a>Réalisations</a></span></div>
+            <p class="li-container s2"><span><a href="#sample">Réalisations</a></span>
+            </p>
+        </li>
+
+        <li class="title">
+            <div class="li-container s1"><span><a>Contact</a></span></div>
+            <p class="li-container s2"><span><a href="#contact">Contact</a></span></p>
+        </li>
+    </ul>
+</header>
+
+<main>
+
+    <section class="welcome">
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="welcome-presentation">
+
+            <br>
+            <br>
+            <p>Bonjour et bienvenue,</p>
+            <br>
+            <p>je m'appel Guillaume, je suis "developpeur web" à mes heures perdues</p>
+            <br>
+            <p>J'utilise majoritairement HTML, CSS et JS pour la réalisation de page Web</p>
+            <br>
+            <p>J'apprécie particulièrement tout ce qui est du domaine de l'animation </p>
+            <br>
+            <p>Je peux surement vous aidez à réaliser votre projet </p>
+            <br>
+            <p>N'hésiter pas à me contacter </p>
+            <br>
+            <p>à bientot.</p>
+            <br>
+            <br>
+
+        </div>
+
+    </section>
+
+
+    <section class="competences">
+
+        <h2>Compétences</h2>
+
+        <div class="container-competence-logo">
+
+            <img class="logo-responsive" id="logo-html" src="images/logo-html.png" alt="responsive design">
+            <img class="logo-responsive" id="logo-css" src="images/logo-css.png" alt="responsive design">
+            <img class="logo-responsive" id="logo-js" src="images/logo-js.png" alt="responsive design">
+<!--            <img class="logo-responsive" src="images/logo-svelte-vertical.png" alt="responsive design">-->
+        </div>
+
+
+    </section>
+
+
+    <section class="sample" id="sample">
+        <h2> Quelques projets en cours de developpement</h2>
+
+        <div class="container-sample-card">
+
+            <div class="sample-card" onmouseover="textFadeIn('sample-test-designation-1')"
+                 onmouseout="textFadeOut('sample-test-designation-1')">
+
+                <p class="designation-site" id="sample-test-designation-1">
+                    Projet en cours d'Architecte d'intérieur
+                </p>
+
+                <a href="https://karibou12.github.io/index.html" target="_blank">
+                    <img class="thumbnail-img" src="images/thumbnail Mangata.png" alt=""></a>
+
+                <p class="description sample-test-designation-1">
+                    Site responsive avec galerie personnalisée pour une architecte d'intérieur
+                </p>
+            </div>
+
+
+            <div class="sample-card" onmouseover="textFadeIn('sample-test-designation-2')"
+                 onmouseout="textFadeOut('sample-test-designation-2')">
+
+                <p class="designation-site" id="sample-test-designation-2">
+                    Projet en cours DJ / Producteur
+                </p>
+
+                <a href="https://exempledj.000webhostapp.com/" target="_blank">
+                    <img class="thumbnail-img" src="images/thumbnail Dj.png" alt=""></a>
+
+                <p class="description sample-test-designation-2">
+                    Site non responsive avec animation au départ et lecteur incorporé.
+                </p>
+            </div>
+
+
+        </div>
+
+
+    </section>
+</main>
+
+<footer id="contact">
+    <h3>Contact: &nbsp; </h3>
+    <div class="container-link">
+
+        <a href="mailto:karibou12@msn.com?subject=Contact"><img class="mail" src="images/envelope-fill.svg"></img></a>
+        <a href="https://www.linkedin.com/in/guillaume-d-14090715a/" target="_blank"><img  class="linkedIn" src="images/linkedin.svg"></img></a>
+    </div>
+
+</footer>
+
+
+<script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>
